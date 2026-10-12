@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kerolos Habib Samweel Habib — Software Tester and Junior Software Developer portfolio." />
+  <title>Kerolos Habib | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Kerolos home"><span class="brand-mark">KH</span><span>Kerolos Habib</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" data-i18n="navHome">Home</a><a href="#about" data-i18n="navAbout">About</a><a href="#skills" data-i18n="navSkills">Skills</a><a href="#experience" data-i18n="navExperience">Experience</a><a href="#education" data-i18n="navEducation">Education</a><a href="#projects" data-i18n="navProjects">Projects</a><a href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="lang-switch" id="langSwitch" aria-label="Switch language"><span class="globe">◎</span><span id="langLabel">EN</span><span class="muted">/ AR</span></button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☼</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hello">Hello, I'm <span class="wave">👋</span></p>
+          <h1><span>Kerolos</span> Habib<br class="desktop-break"> Samweel Habib</h1>
+          <h2 data-i18n="title">Software Tester &amp; Junior Software Developer</h2>
+          <div class="hero-meta"><span>⌘ <span data-i18n="field">Software Testing &amp; Computer Science</span></span><span>⌖ <span data-i18n="location">Cairo, Egypt</span></span></div>
+          <p class="hero-bio" data-i18n="bio">I am a Computer Science student at Egyptian Chinese University and an aspiring Software Tester. I have learned C++, Java, Python, Data Structures, Problem-Solving, and Object-Oriented Programming (OOP). I am currently developing my skills in software testing, quality assurance, and full-stack development. I enjoy building complete projects from scratch, learning new technologies, and improving my technical skills step by step.</p>
+          <div class="hero-buttons"><a class="button primary" href="#projects" data-i18n="viewProjects">↗ View My Projects</a><a class="button secondary" href="#contact" data-i18n="contactMe">✉ Contact Me</a></div>
+          <div class="social-links"><a href="https://github.com/Kerolos-Habib" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a><a href="https://www.linkedin.com/in/kerolos-habib-1473252a4" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a><a href="mailto:amlibrihim4@gmail.com" aria-label="Email">✉</a></div>
+        </div>
+        <div class="hero-art reveal" aria-label="Decorative developer illustration">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="code-window"><div class="window-top"><i></i><i></i><i></i><span>kerolos.dev</span></div><div class="code-lines"><p><b>const</b> developer = {</p><p class="indent"><span>name:</span> <em>"Kerolos"</em>,</p><p class="indent"><span>focus:</span> <em>"Quality &amp; Code"</em>,</p><p class="indent"><span>mindset:</span> <em>"Always learning"</em></p><p>};</p><p class="code-last"><b>developer</b>.<strong>build</strong>();</p></div></div>
+          <div class="floating-card card-top"><span class="mini-icon">✓</span><div><strong>Quality first</strong><small>Test · Learn · Improve</small></div></div>
+          <div class="floating-card card-bottom"><span class="mini-icon blue">⌘</span><div><strong>Build with purpose</strong><small>One project at a time</small></div></div>
+          <div class="hero-monogram">KH</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span data-i18n="scroll">SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 06</span></div>
+    </section>
+
+    <section class="section section-border" id="about">
+      <div class="container about-grid">
+        <div><p class="section-kicker" data-i18n="aboutKicker">A LITTLE ABOUT ME</p><h2 class="section-title" data-i18n="aboutTitle">Curious mind.<br><span>Quality-driven</span> developer.</h2></div>
+        <div class="about-content"><p data-i18n="aboutText">I'm building a strong foundation in computer science while exploring software quality and development. I like understanding how systems work, finding edge cases, and turning ideas into practical projects. My goal is to grow into a dependable engineer who writes clear code and helps create reliable products.</p><div class="value-pills"><span>Problem solving</span><span>Quality mindset</span><span>Continuous learning</span></div></div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="skills">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker" data-i18n="skillsKicker">WHAT I WORK WITH</p><h2 class="section-title" data-i18n="skillsTitle">Skills &amp; <span>Technologies</span></h2></div><p class="section-note" data-i18n="skillsNote">A growing toolkit built through coursework and hands-on projects.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon cyan">&lt;/&gt;</div><h3 data-i18n="programming">Programming Languages</h3><div class="tags"><span>C++</span><span>Java</span><span>Python</span></div></article>
+          <article class="skill-card"><div class="skill-icon violet">◇</div><h3>Object-Oriented Programming</h3><div class="tags"><span>Classes &amp; Objects</span><span>Encapsulation</span><span>Inheritance</span><span>Polymorphism</span><span>Interfaces</span><span>Abstraction</span></div></article>
+          <article class="skill-card"><div class="skill-icon pink">⌘</div><h3 data-i18n="csfundamentals">Computer Science Fundamentals</h3><div class="tags"><span>Data Structures</span><span>Problem Solving</span><span>Stacks &amp; Heaps</span><span>Codeforces</span></div></article>
+          <article class="skill-card"><div class="skill-icon green">⌕</div><h3 data-i18n="testing">Software Testing</h3><div class="tags"><span>Testing Fundamentals</span><span>Manual Testing</span><span>Test Cases</span><span>Bug Reporting</span><span>SDLC</span><span>QA</span></div></article>
+          <article class="skill-card"><div class="skill-icon violet">▣</div><h3 data-i18n="webhardware">Web &amp; Hardware</h3><div class="tags"><span>Web Basics</span><span>Arduino</span><span>Sensors</span><span>Logic Gates</span></div></article>
+          <article class="skill-card"><div class="skill-icon blue">⌁</div><h3 data-i18n="tools">Tools &amp; Version Control</h3><div class="tags"><span>Git / GitHub</span><span>IntelliJ IDEA</span><span>Visual Studio</span><span>MS Office</span><span>Canva</span></div></article>
+          <article class="skill-card"><div class="skill-icon pink">✳</div><h3 data-i18n="otherSkills">Other Skills</h3><div class="tags"><span>Prompt Engineering</span><span>Project Leadership</span><span>Communication</span><span>Continuous Learning</span><span>Vibe Coding</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="experience">
+      <div class="container">
+        <p class="section-kicker" data-i18n="journeyKicker">MY JOURNEY SO FAR</p><h2 class="section-title" data-i18n="journeyTitle">Experience, training <span>&amp; education</span></h2>
+        <div class="timeline-grid">
+          <article class="timeline-card"><span class="timeline-symbol">⌘</span><p class="small-label" data-i18n="experienceLabel">PRACTICAL EXPERIENCE</p><h3>Lead Developer</h3><p class="timeline-sub">C++ Object-Oriented Banking System</p><p data-i18n="experienceText">Designed the system architecture and core classes, organized the repository, and managed version control using GitHub while applying OOP and clean-code practices.</p><a href="#projects" class="text-link" data-i18n="seeProject">See project ↗</a></article>
+          <article class="timeline-card"><span class="timeline-symbol">✦</span><p class="small-label" data-i18n="trainingLabel">TRAINING</p><h3>Digital Egypt Pioneers Initiative</h3><p class="timeline-sub">Software Testing · Trainee</p><p data-i18n="depiText">Training focused on software testing fundamentals, quality assurance methodologies, and practical testing applications.</p><div class="timeline-divider"></div><h3>Route Academy</h3><p class="timeline-sub">Software Engineering Foundation Diploma</p><p data-i18n="routeText">Coursework in C++, Java, data structures, OOP, programming fundamentals, and web development basics.</p></article>
+          <article class="timeline-card" id="education"><span class="timeline-symbol">⌂</span><p class="small-label" data-i18n="educationLabel">EDUCATION</p><h3>Egyptian Chinese University</h3><p class="timeline-sub">Bachelor of Computer Science · ECU</p><p data-i18n="educationText">Faculty of Computers and Information Technology<br>Second-year student · Cairo, Egypt</p><div class="timeline-divider"></div><p class="small-label" data-i18n="languagesLabel">LANGUAGES</p><div class="language-row"><span>Arabic</span><span data-i18n="native">Native</span></div><div class="language-row"><span>English</span><span data-i18n="fluent">Fluent</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker" data-i18n="projectsKicker">SELECTED WORK</p><h2 class="section-title" data-i18n="projectsTitle">Featured <span>Projects</span></h2></div><p class="section-note" data-i18n="projectsNote">Small steps, real practice, and ideas worth building.</p></div>
+        <div class="projects-grid">
+          <article class="project-card"><div class="project-top"><span class="project-icon">▤</span><span class="project-number">01</span></div><h3>Object-Oriented Banking System</h3><p data-i18n="bankDesc">A comprehensive console-based banking system demonstrating OOP concepts, structured classes, and repository management.</p><div class="tags"><span>C++</span><span>OOP</span><span>GitHub</span></div><a class="project-link" href="https://github.com/Kerolos-Habib" target="_blank" rel="noreferrer" aria-label="Banking project on GitHub">↗</a></article>
+          <article class="project-card"><div class="project-top"><span class="project-icon violet">▦</span><span class="project-number">02</span></div><h3>Complex Calculator</h3><p data-i18n="calcDesc">A university Java project that performs mathematical operations with complex numbers.</p><div class="tags"><span>Java</span><span>OOP</span><span>Math</span></div><a class="project-link" href="https://github.com/Kerolos-Habib" target="_blank" rel="noreferrer" aria-label="Complex calculator on GitHub">↗</a></article>
+          <article class="project-card"><div class="project-top"><span class="project-icon green">▥</span><span class="project-number">03</span></div><h3>Gym Management System</h3><p data-i18n="gymDesc">A console app for managing members, trainers, plans, attendance, and validated user input.</p><div class="tags"><span>C++</span><span>OOP</span><span>File Handling</span></div><a class="project-link" href="https://github.com/Kerolos-Habib" target="_blank" rel="noreferrer" aria-label="Gym system on GitHub">↗</a></article>
+          <article class="project-card"><div class="project-top"><span class="project-icon pink">⌖</span><span class="project-number">04</span></div><h3>Smart Tracking Watch</h3><p data-i18n="watchDesc">A concept for a GPS tracking watch connected to a Flutter app, designed around student safety.</p><div class="tags"><span>IoT</span><span>Flutter</span><span>Concept</span></div><a class="project-link" href="#contact" aria-label="Ask about smart tracking watch">↗</a></article>
+          <article class="project-card"><div class="project-top"><span class="project-icon cyan">▦</span><span class="project-number">05</span></div><h3>Hybrid Microcontroller Security</h3><p data-i18n="securityDesc">A hardware and software security prototype using Arduino, LCD, keypad, and logic gates.</p><div class="tags"><span>Arduino</span><span>C++</span><span>Hardware</span></div><a class="project-link" href="#contact" aria-label="Ask about security system">↗</a></article>
+          <article class="project-card"><div class="project-top"><span class="project-icon">⌗</span><span class="project-number">06</span></div><h3>Tic Tac Toe</h3><p data-i18n="ticDesc">A classic console game built to practice arrays, functions, loops, and game logic in C++.</p><div class="tags"><span>C++</span><span>Arrays</span><span>Loops</span></div><a class="project-link" href="https://github.com/Kerolos-Habib" target="_blank" rel="noreferrer" aria-label="Tic Tac Toe on GitHub">↗</a></article>
+          <article class="project-card"><div class="project-top"><span class="project-icon violet">🛒</span><span class="project-number">07</span></div><h3>Java E-Commerce System</h3><p data-i18n="ecommerceDesc">A Java-based project for practicing encapsulation, inheritance, polymorphism, and interfaces.</p><div class="tags"><span>Java</span><span>OOP</span><span>Interfaces</span></div><a class="project-link" href="https://github.com/Kerolos-Habib" target="_blank" rel="noreferrer" aria-label="E-commerce project on GitHub">↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section section-border" id="contact">
+      <div class="container contact-panel"><div><p class="section-kicker" data-i18n="contactKicker">LET'S CONNECT</p><h2 class="section-title" data-i18n="contactTitle">Have a project or <span>opportunity?</span></h2><p data-i18n="contactText">I'm open to learning opportunities, collaboration, and entry-level experience in software testing and development.</p></div><div class="contact-actions"><a class="button primary" href="mailto:amlibrihim4@gmail.com">✉ <span data-i18n="emailMe">Email me</span></a><a class="button secondary" href="https://www.linkedin.com/in/kerolos-habib-1473252a4" target="_blank" rel="noreferrer">in LinkedIn</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">KH</span></a><p>© <span id="year"></span> Kerolos Habib Samweel Habib. <span data-i18n="rights">Built with curiosity and care.</span></p><a href="#home" class="back-top" data-i18n="backTop">Back to top ↑</a></div></footer>
+</body>
+</html>
